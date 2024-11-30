@@ -1,0 +1,6 @@
+
+target/classes/application.yml
+target/classes/logback-spring.xml
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/com.kubernetes/spring-boot-k8S/pom.properties
+target/classes/META-INF/maven/com.kubernetes/spring-boot-k8S/pom.xml

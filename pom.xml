@@ -15,7 +15,7 @@
 	<description>Spike project for Spring Boot and k8s</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 	</properties>
 
@@ -72,7 +72,7 @@
 									<groupId>${project.groupId}</groupId>
 									<artifactId>${project.artifactId}</artifactId>
 									<version>${project.version}</version>
-									<outputDirectory>${project.build.directory}/dependency</outputDirectory>
+									<!-- outputDirectory>${project.build.directory}/dependency</outputDirectory -->
 								</artifactItem>
 							</artifactItems>
 						</configuration>
